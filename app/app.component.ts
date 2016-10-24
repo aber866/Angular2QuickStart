@@ -16,7 +16,7 @@ import { User } from './shared/models/user';
 				<div class="col-sm-4">
 					<div *ngIf="users">
 						<ul class="list-group users-list">
-							<li class="list-group-item" 
+							<li class="list-group-item"
 								*ngFor="let user of users"
 								(click)="selectUser(user)"
 								[class.active]="user === activeUser"
@@ -52,7 +52,7 @@ import { User } from './shared/models/user';
 })
 export class AppComponent {
 	//Creamos data dentro de la clase y accedemos a ello en la vista, template
-	message: string = "Hello",
+	message: string = "Hello";
 	users: User[] = [
 		{ id: 1, name: "Alberto", username: "aber866" },
 		{ id: 2, name: "Ruben", username: "sobrino" },

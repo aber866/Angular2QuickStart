@@ -1,13 +1,8 @@
-npm install -g angular-cli (tarda)
-ng new my-app (tarda)
-cd my-app
-ng serve
-
 touch index.html
-npm init --yes (crea el package.json por defecto)
-html:5 (tab en index.html)
+npm init --yes (default package.json)
+html:5 (tab in index.html)
 npm install --save-dev lite-server
-"scripts": { (En package.json)
+"scripts": { (package.json)
 	"lite": "lite-server"
 }
 npm run lite
@@ -20,9 +15,11 @@ npm install --save-dev concurrently
 npm install core-js reflect-metadata zone.js rxjs@5.0.0-beta.12 systemjs --save
 npm install @angular/core @angular/common @angular/compiler @angular/platform-browser @angular/platform-browser-dynamic @angular/forms @angular/http @angular/router --save
 
-En definitiva: tener los 5 ficheros: package.json, index.html, tsconfig.json, typings.json y system.config.js
-Y npm install y npm start
+Definitely have these 5 files: package.json, index.html, tsconfig.json, typings.json and system.config.js
+And npm install and npm start
 
-Rellenar main.ts, app.component.ts y app.module.ts
+Fill main.ts, app.component.ts and app.module.ts
 
-Clean: añadir "outDir": "dist" a tsconfig y enlazando a dist en systemjs.config.js
+Clean: Add "outDir": "dist" to tsconfig.json and link to dist in systemjs.config.js
+
+If we're behind a proxy create .typingsrc
