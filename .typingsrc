@@ -1,2 +1,4 @@
-proxy=http://107.15.40.4:8080
-rejectUnauthorized=false
+//proxy=http://107.15.40.4:8080
+//rejectUnauthorized=false
+"rejectUnauthorized": false,
+"registryURL": "http://api.typings.org/

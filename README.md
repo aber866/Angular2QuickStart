@@ -23,3 +23,9 @@ Fill main.ts, app.component.ts and app.module.ts
 Clean: Add "outDir": "dist" to tsconfig.json and link to dist in systemjs.config.js
 
 If we're behind a proxy create .typingsrc
+
+//A super simple starter kit for Angular 2 apps
+https://github.com/scotch-io/angular2-starter-basic
+
+//Code for the Scotch School course: Getting Started with Angular 2
+https://github.com/scotch-io/angular2-starter-course

@@ -1,8 +1,11 @@
 {
   "name": "scotchioCourse",
   "version": "1.0.0",
-  "description": "npm install -g angular-cli (tarda)\r ng new my-app (tarda)\r cd my-app\r ng serve",
-  "main": "index.js",
+  "description": "Users management",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aber866/Angular2QuickStart.git"
+  },
   "scripts": {
     "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\"",
     "lite": "lite-server",
@@ -11,9 +14,9 @@
     "typings": "typings",
     "postinstall": "typings install"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["angular2"],
+  "author": "Alberto Valverde",
+  "license": "none",
   "devDependencies": {
     "concurrently": "^3.1.0",
     "lite-server": "^2.2.2",
